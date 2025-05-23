@@ -85,8 +85,8 @@ def decrypt_playfair(key, ciphertext):
     return plaintext
 
 # Exemple d’utilisation
-key = "MONKEY"
-message = "HELLO WORLD"
+key = "CERY"
+message = "ADVANCED CRYPTO"
 
 encrypted = encrypt_playfair(key, message)
 print(f"Texte chiffré : {encrypted}")
